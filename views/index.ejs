@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checklist Evaluation Result</title>
+  </head>
+  <body>
+    <h1>Checklist Evaluation Result</h1>
+
+    <h2>Status: <%= result.valid ? 'Passed' : 'Failed' %></h2>
+    <p><strong>Message:</strong> <%= result.message %></p>
+
+    <hr />
+    <h3>Data Submitted:</h3>
+    <ul>
+      <li><strong>Name:</strong> <%= data.name %></li>
+      <li><strong>Email:</strong> <%= data.email %></li>
+      <li><strong>Age:</strong> <%= data.age %></li>
+    </ul>
+
+    <p><a href="/">Go back to evaluate another checklist</a></p>
+  </body>
+</html>

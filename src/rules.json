@@ -1,0 +1,9 @@
+{
+  "minAge": 18,
+  "maxAge": 100,
+  "requiredFields": ["name", "email", "age"],
+  "allowedEmails": [
+    "example@example.com",
+    "test@test.com"
+  ]
+}
